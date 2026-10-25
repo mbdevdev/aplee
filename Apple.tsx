@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useMemo, useRef } from 'react'
 import { useFrame } from '@react-three/fiber'
 import { Color, DoubleSide, MathUtils, type Group, type Mesh } from 'three'
-import { createAppleBody, createLeafGeometry, createStemGeometry, paintApple } from './lib/appleGeometry'
+import { createAppleBody, createLeafGeometry, createStemGeometry, paintApple } from './appleGeometry'
 import { scrollState } from './scrollState'
 import type { Variety } from './varieties'
 
