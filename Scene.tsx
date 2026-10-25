@@ -1,6 +1,6 @@
 import { Environment, Lightformer } from '@react-three/drei'
 import Apple from './Apple'
-import type { Variety } from './lib/varieties'
+import type { Variety } from './varieties'
 
 export default function Scene({ variety }: { variety: Variety }) {
   return (
