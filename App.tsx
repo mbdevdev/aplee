@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Canvas } from '@react-three/fiber'
 import Scene from './Scene'
 import { VARIETIES } from './lib/varieties'
-import { initScrollState } from './lib/scrollState'
+import { initScrollState } from './scrollState'
 
 const FACTS = [
   {
