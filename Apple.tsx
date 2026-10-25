@@ -2,8 +2,8 @@ import { useEffect, useLayoutEffect, useMemo, useRef } from 'react'
 import { useFrame } from '@react-three/fiber'
 import { Color, DoubleSide, MathUtils, type Group, type Mesh } from 'three'
 import { createAppleBody, createLeafGeometry, createStemGeometry, paintApple } from './lib/appleGeometry'
-import { scrollState } from './lib/scrollState'
-import type { Variety } from './lib/varieties'
+import { scrollState } from './scrollState'
+import type { Variety } from './varieties'
 
 const { damp } = MathUtils
 
